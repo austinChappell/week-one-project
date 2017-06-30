@@ -13,17 +13,12 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
 
-html, body {
-  /*height: 100%;*/
-}
-
 body {
   background: #F2F1E8;
   font-family: 'Merriweather', serif;
   color: #131511;
   margin: 0;
   position: relative;
-  /*padding-top: 39px;*/
 }
 
 .container {
