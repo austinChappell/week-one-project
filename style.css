@@ -76,61 +76,63 @@ h2 {
 
 .image-gallery {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .image {
-  min-height: 300px;
-  flex-grow: 1;
-  margin: 1%;
+  background-size: cover;
+  margin: 8px;
+}
+
+.row-1 {
+  height: 300px;
+}
+
+.row-2 {
+  height: 200px;
 }
 
 .sm-image {
-  flex-basis: 18%;
+  /*flex-basis: 20%;*/
+  flex-grow: 1;
 }
 
 .md-image {
-  flex-basis: 36%;
+  /*flex-basis: 40%;*/
+  flex-grow: 2;
 }
 
 .lg-image {
-  flex-basis: 56%;
+  /*flex-basis: 60%;*/
+  flex-grow: 3;
 }
 
 #image-01 {
   background-image: url("images/product-1.jpg");
-  background-size: cover;
 }
 
 #image-02 {
   background-image: url("images/product-2.jpg");
-  background-size: cover;
 }
 
 #image-03 {
   background-image: url("images/product-3.jpg");
-  background-size: cover;
 }
 
 #image-04 {
   background-image: url("images/product-4.jpg");
-  background-size: cover;
 }
 
 #image-05 {
   background-image: url("images/product-5.jpg");
-  background-size: cover;
 }
 
 #image-06 {
   background-image: url("images/product-6.jpg");
-  background-size: cover;
 }
 
 #image-07 {
   background-image: url("images/product-7.jpg");
-  background-size: cover;
 }
 
 footer {
