@@ -23,6 +23,7 @@ body {
   color: #131511;
   margin: 0;
   position: relative;
+  padding-top: 39px;
   padding-bottom: 50px;
 }
 
@@ -37,6 +38,11 @@ nav {
   background-color: #FFFFFF;
   padding: 10px 20px;
   font-family: 'Roboto', sans-serif;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  height: 39px;
 }
 
 ul {
