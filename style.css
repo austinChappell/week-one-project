@@ -24,7 +24,6 @@ body {
   margin: 0;
   position: relative;
   padding-top: 39px;
-  padding-bottom: 50px;
 }
 
 .container {
@@ -61,15 +60,16 @@ ul {
 }
 
 #logo {
-  width: 38px;
+  width: 40px;
   float: left;
   vertical-align: middle;
 }
 
 li {
   list-style: none;
-  margin: 10px 20px;
+  margin: 10px 25px;
   align-items: flex-start;
+  font-size: 1.2em;
 }
 
 .clearfix {
@@ -211,15 +211,21 @@ h3 {
   margin: 40px 0 10px;
 }
 
+p a {
+  color: #968772;
+}
+
 #background-image-1 {
   width: 100%
 }
 
 #room-to-grow-image {
-  background-image: url("images/product-1.jpg");
+  background-image: url("images/background-3.jpg");
+  background-size: cover;
+  background-position: 50% 25%;
   width: 100%;
   margin: 0;
-  padding: 100px 0;
+  padding: 140px 0;
 }
 
 #room-to-grow-h1 {
@@ -249,4 +255,45 @@ h3 {
 #pottery-image figcaption {
   font-size: 0.8em;
   line-height: 1.5em;
+}
+
+#background-2 {
+  background-image: url("images/background-2.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+#newsletter-signup {
+  background-color: white;
+  margin: 0 auto;
+  width: 50%;
+  min-width: 700px;
+  padding: 30px;
+  text-align: center;
+}
+
+#newsletter-signup h2 {
+  margin-bottom: 15px;
+}
+
+.form-item {
+  border: none;
+  border-bottom: 2px solid #968772;
+  display: block;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.8em;
+  margin-top: 40px;
+  outline: none;
+}
+
+#submit {
+  background-color: #968772;
+  color: #F2F1E8;
+  margin-top: 30px;
+  padding: 15px 20px;
+  font-size: 1.4em;
+  border: none;
 }
