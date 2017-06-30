@@ -62,6 +62,7 @@ ul {
 #logo {
   width: 40px;
   float: left;
+  position: absolute;
   vertical-align: middle;
 }
 
@@ -255,6 +256,11 @@ p a {
 #pottery-image figcaption {
   font-size: 0.8em;
   line-height: 1.5em;
+}
+
+#facilities-link {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 #background-2 {
