@@ -74,8 +74,28 @@ h2 {
   text-align: center;
 }
 
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .image {
   min-height: 300px;
+  flex-grow: 1;
+  margin: 1%;
+}
+
+.sm-image {
+  flex-basis: 18%;
+}
+
+.md-image {
+  flex-basis: 36%;
+}
+
+.lg-image {
+  flex-basis: 56%;
 }
 
 #image-01 {
