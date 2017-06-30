@@ -14,7 +14,7 @@ Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
 
 html, body {
-  height: 100%;
+  /*height: 100%;*/
 }
 
 body {
@@ -23,7 +23,7 @@ body {
   color: #131511;
   margin: 0;
   position: relative;
-  padding-top: 39px;
+  /*padding-top: 39px;*/
 }
 
 .container {
@@ -43,13 +43,18 @@ body {
 
 nav {
   background-color: #FFFFFF;
-  padding: 10px 20px;
+  padding: 10px 0;
   font-family: 'Roboto', sans-serif;
   position: fixed;
   width: 100%;
   margin: 0;
   top: 0;
-  height: 39px;
+  box-shadow: 0px 0px 1px grey;
+}
+
+nav > a {
+  position: absolute;
+  left: 20px;
 }
 
 ul {
@@ -62,7 +67,6 @@ ul {
 #logo {
   width: 40px;
   float: left;
-  position: absolute;
   vertical-align: middle;
 }
 
@@ -83,18 +87,23 @@ nav a {
   text-transform: uppercase;
 }
 
+nav a:hover {
+  color: #CD5D67;
+}
+
 .active {
   color: #968772;
 }
 
 main {
+  margin-top: 80px;
 }
 
 h1 {
   text-align: center;
   font-size: 3.5em;
   font-weight: 400;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 h2 {
@@ -216,6 +225,10 @@ p a {
   color: #968772;
 }
 
+p a:hover {
+  color: #967343;
+}
+
 #background-image-1 {
   width: 100%
 }
@@ -224,6 +237,7 @@ p a {
   background-image: url("images/background-3.jpg");
   background-size: cover;
   background-position: 50% 25%;
+  background-attachment: fixed;
   width: 100%;
   margin: 0;
   padding: 140px 0;
@@ -266,8 +280,15 @@ p a {
 #background-2 {
   background-image: url("images/background-2.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
-  padding-top: 100px;
+}
+
+#full-height-main {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 #newsletter-signup {
@@ -295,11 +316,22 @@ p a {
   outline: none;
 }
 
-#submit {
+.form-item:focus {
+  border-bottom: 2px solid #967343;
+}
+
+.submit {
   background-color: #968772;
   color: #F2F1E8;
   margin-top: 30px;
   padding: 15px 20px;
   font-size: 1.4em;
   border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #967343;
+  color: #FFFFFF;
 }
