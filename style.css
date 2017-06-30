@@ -1,0 +1,119 @@
+/*Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
+
+body {
+  background: #0E0E0E;
+}
+
+.container {
+  max-width: 960px;
+  width: 80%;
+  margin: 0 auto;
+  background: #F2F1E8;
+}
+
+nav {
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 38px;
+  float: left;
+  vertical-align: middle;
+}
+
+li {
+  list-style: none;
+  margin: 10px 20px;
+  align-items: flex-start;
+}
+
+.clearfix {
+  height: 0;
+  clear: both;
+}
+
+nav a {
+  color: #2B2F26;
+  text-transform: uppercase;
+}
+
+.active {
+  color: #968772;
+}
+
+main {
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.image {
+  min-height: 300px;
+}
+
+#image-01 {
+  background-image: url("images/product-1.jpg");
+  background-size: cover;
+}
+
+#image-02 {
+  background-image: url("images/product-2.jpg");
+  background-size: cover;
+}
+
+#image-03 {
+  background-image: url("images/product-3.jpg");
+  background-size: cover;
+}
+
+#image-04 {
+  background-image: url("images/product-4.jpg");
+  background-size: cover;
+}
+
+#image-05 {
+  background-image: url("images/product-5.jpg");
+  background-size: cover;
+}
+
+#image-06 {
+  background-image: url("images/product-6.jpg");
+  background-size: cover;
+}
+
+#image-07 {
+  background-image: url("images/product-7.jpg");
+  background-size: cover;
+}
+
+footer {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+}
