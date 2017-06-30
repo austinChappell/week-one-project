@@ -15,6 +15,9 @@ Input Border Bottom (Focus): #967343*/
 
 body {
   background: #0E0E0E;
+  font-family: 'Merriweather', serif;
+  color: #131511;
+  margin-top: 0;
 }
 
 .container {
@@ -27,6 +30,7 @@ body {
 nav {
   background-color: #FFFFFF;
   padding: 10px;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -68,10 +72,16 @@ main {
 
 h1 {
   text-align: center;
+  font-size: 3.5em;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
 h2 {
+  margin-top: 10px;
   text-align: center;
+  font-size: 2.0em;
+  font-weight: 300;
 }
 
 .image-gallery {
@@ -134,12 +144,17 @@ h2 {
 }
 
 button {
-  bottom: 20px;
+  bottom: 15px;
   position: absolute;
-  padding: 5px 10px;
+  padding: 10px;
+  background: #2B2F26;
+  color: #F2F1E8;
+  border: none;
+  font-size: 1.0em;
 }
 
 footer {
   background-color: #2B2F26;
   color: #F2F1E8;
+  padding: 20px;
 }
