@@ -82,6 +82,7 @@ h2 {
 .image {
   background-size: cover;
   margin: 8px;
+  position: relative;
 }
 
 .row-1 {
@@ -93,17 +94,14 @@ h2 {
 }
 
 .sm-image {
-  /*flex-basis: 20%;*/
   flex-grow: 1;
 }
 
 .md-image {
-  /*flex-basis: 40%;*/
   flex-grow: 2;
 }
 
 .lg-image {
-  /*flex-basis: 60%;*/
   flex-grow: 3;
 }
 
@@ -133,6 +131,12 @@ h2 {
 
 #image-07 {
   background-image: url("images/product-7.jpg");
+}
+
+button {
+  bottom: 20px;
+  position: absolute;
+  padding: 5px 10px;
 }
 
 footer {
