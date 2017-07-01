@@ -115,8 +115,26 @@ h2 {
 
 .image {
   background-size: cover;
-  margin: 8px;
   position: relative;
+}
+
+.img-parent {
+  margin: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img-child {
+  height: 100%;
+  transition: 500ms;
+}
+
+.img-child:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  filter: contrast(20%);
 }
 
 .row-1 {
@@ -175,6 +193,7 @@ button {
   color: #F2F1E8;
   border: none;
   font-size: 1.0em;
+  cursor: pointer;
 }
 
 .wrapper {
