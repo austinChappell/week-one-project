@@ -175,6 +175,7 @@ button {
   color: #F2F1E8;
   border: none;
   font-size: 1.0em;
+  cursor: pointer;
 }
 
 .wrapper {
