@@ -135,6 +135,7 @@ h2 {
   transition: 500ms;
 }
 
+/*Zoom in*/
 .img-parent:hover .img-child {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -157,12 +158,14 @@ h2 {
   margin: 0 auto;
 }
 
+/*Show the text*/
 .img-parent:hover .product-image-button > span {
   color: rgba(255, 255, 255, 1);
   border: 3px solid rgba(255, 255, 255, 1);
   border-radius: 1px;
 }
 
+/*Hide button*/
 .product-image-button > span {
   transition: 1000ms;
   font-size: 1.2em;
